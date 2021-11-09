@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style1.css">
+    <link rel="shortcur icon" href="./img/favicon.png" type="image/png">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js" charset="utf-8"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.1/css/all.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@200;300;400;600;700;900&display=swap" rel="stylesheet">
+    <link href='https://unpkg.com/boxicons@2.0.9/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="css/task_hoi_dap.css">
+    <title>Document</title>
+</head>
+<body>
+    <header>
+        <div class="inner-width">
+         <!--<a href="#" class="logo"><img src="image/logo.png" alt=""></a>-->
+          <i class="menu-toggle-btn fas fa-bars"></i>
+          <nav class="navigation-menu">
+            <a href="index.html"><i class="fas fa-home home"></i> Trang Chủ</a>
+           <!-- <a href="#"><i class="fas fa-align-left about"></i> About</a>-->
+            <a href="SoLieuCovid.html"><i class="fab fa-buffer works"></i> Số Liệu Covid</a>
+            <a href="TinTucCovid.html"><i class="fas fa-users team"></i> Tin Tức Covid</a>
+            <a href="Hoidap.html " class="active"><i class="fas fa-headset contact"></i> Hỏi Đáp Tin Tức</a>
+          </nav>
+        </div>
+      </header>
+      <script type="text/javascript">
+        $(".menu-toggle-btn").click(function(){
+          $(this).toggleClass("fa-times");
+          $(".navigation-menu").toggleClass("active");
+        });
+      </script>
+      <h1>Coronavirus disease (COVID-19): Contact tracing for responders</h1>
+      <div class="accordion">
+        <div class="accordion-item">
+          <div class="accordion-item-header">
+            How does contact tracing work ?
+          </div>
+          <div class="accordion-item-body">
+            <div class="accordion-item-body-content">
+               <p>Contact tracing identifies, and monitors people who have been exposed to someone who has been infected with SARS-CoV-2, and involves several steps:</p>
+               <br>
+               <p>Defining contacts: Contact definitions may vary by country. WHO defines a contact as a person who has been exposed to someone else who has had recent probable or confirmed SARS-CoV-2 infection: 1. face-to-face contact with a probable or confirmed case within 1 meter and for at least 15 minutes; 2. direct physical contact with a probable or confirmed case; 3. direct care for a patient with probable or confirmed COVID-19 disease without the use of recommended PPE; or 4. other situations as indicated by local risk assessments. Exposure is considered any time between 2 days before to at least 13 days after the case started to show symptoms. For asymptomatic cases, a contact is anyone who has been exposed between 2 days before and 10 days after the date on which the sample that led to confirmation of infection was taken.</p>
+               <br>
+               <p>Identifying contacts: this is usually done through an interview with the person infected with SARS-CoV-2 to find out who they have been in contact with during the period of time described above. There are other ways to identify contacts depending on the setting, for example through membership or attendance lists of places the case visited during the period described above, or through public notices. Digital proximity tracing applications have also been developed to help identify and notify contacts through automated processes.</p>
+               <br>
+               <p>Informing contacts: each identified contact should be contacted to confirm whether they meet the definition of a contact. This may be done through health authorities and/or via digital tracing proximity applications. Cases may also be encouraged to inform their own contacts. Each person identified as a contact will be informed about the goal of contact tracing, the process (including how their personal data will be protected), how to undertake quarantine and for how long, and who to contact with any concerns or questions. Additional information should be provided on symptoms to monitor throughout the quarantine period, and what to do if a contact returns a positive test or becomes unwell.</p>
+               <br>
+               <p>Managing and monitoring contacts: contacts should be encouraged and supported during the  quarantine period. WHO recommends that the quarantine period ends 14 days after the contact was last exposed to the person who has been infected with SARS-CoV-2. However, the duration of the quarantine period may vary between countries.</p>
+               <br>
+               <p>Data processes and analysis: The information collected from each contact is stored in a secure database. These processes vary from country to country. See question What should be considered for data protection?</p>
+            </div>
+          </div>
+        </div>
+        
+        <div class="accordion-item">
+          <div class="accordion-item-header">
+            Who is definded as a contact ?
+          </div>
+          <div class="accordion-item-body">
+            <div class="accordion-item-body-content">
+               <p>A contact is currently defined as anyone who had direct contact with, or was within 1 metre for at least 15 minutes, with a person who may be infected or is infected with SARS-CoV-2 while they were infectious or potentially infectious, even if the person with the infection did not have symptoms. National and local public health authorities may have additional considerations to define contacts according to local risk assessments.</p>
+               <br>
+               <p>Contacts should be supported to quarantine to limit the possibility of exposing other people to infection if they become ill.(The complete definition of a contact can be found <a href="https://www.who.int/publications/i/item/WHO-2019-nCoV-Surveillance_Case_Definition-2020.2">here</a>).  </p>
+            </div>
+          </div>
+        </div>
+        
+        <div class="accordion-item">
+          <div class="accordion-item-header">
+            What is backward contact tracing ?
+          </div>
+          <div class="accordion-item-body">
+            <div class="accordion-item-body-content">
+              <p>Backward contact tracing refers to the process of 
+                trying to understand how the case became infected, 
+                also known as case or source investigation. 
+                While traditional contact tracing identifies people who were exposed 
+                to cases and may become cases themselves, backward contact tracing or
+                source investigation looks back in time to identify settings or events 
+                where exposure to the virus may have occurred. 
+                This may help public health authorities identify more cases
+                (such as at an event or setting where the case may have been infected) 
+                and identify settings that have led to infection. 
+                This can inform the development of targeted public health and 
+                social measures to reduce the overall number of cases. </p>
+            </div>
+          </div>
+        </div>
+        
+        <div class="accordion-item">
+          <div class="accordion-item-header">
+            When should contact tracing be implemented ?
+          </div>
+          <div class="accordion-item-body">
+            <div class="accordion-item-body-content">
+              <p>Comprehensive contact tracing should be implemented each time cases or clusters (groups of linked cases) are identified. During intense transmission, contact tracing capacities may be overwhelmed, so contact tracing     activities may  focus on household contacts, healthcare workerscontacts, contacts in high-risk closed settings (such as dormitories, institutions, long-term living facilities),and contacts at higher risk of developing severe COVID-19.</p>
+              <br>
+              <p>It is important to maintain contact tracing and quarantine of contacts even when the number of new cases may be decreasing, and/or public health and social measures may be being relaxed, in order to ensure that transmission continues to reduce.  </p>
+            </div>
+          </div>
+        </div>
+        
+        <div class="accordion-item">
+          <div class="accordion-item-header">
+            What are some of the challenges to effective contact tracing for COVID-19 ?
+          </div>
+          <div class="accordion-item-body">
+            <div class="accordion-item-body-content">
+              <p>Some of the challenges are the availability of a trained contact tracing workforce, availability of resources for contact tracing and community engagement.</p>
+              <br>
+              <p>Another main challenge is the intensity of the COVID-19 transmission. In situations of intense transmission, public health resources can quickly become overwhelmed and often cannot cope with the workload of identifying contacts and monitoring them. In such situations, WHO recommends focusing on the contacts with highest exposure and those most at risk of developing severe disease</p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <script>
+          const accordionItemHeaders = document.querySelectorAll(".accordion-item-header");
+      
+      accordionItemHeaders.forEach(accordionItemHeader => {
+        accordionItemHeader.addEventListener("click", event => {
+          
+          // Uncomment in case you only want to allow for the display of only one collapsed item at a time!
+          
+           const currentlyActiveAccordionItemHeader = document.querySelector(".accordion-item-header.active");
+           if(currentlyActiveAccordionItemHeader && currentlyActiveAccordionItemHeader!==accordionItemHeader) {
+             currentlyActiveAccordionItemHeader.classList.toggle("active");
+            currentlyActiveAccordionItemHeader.nextElementSibling.style.maxHeight = 0;
+           }
+      
+          accordionItemHeader.classList.toggle("active");
+          const accordionItemBody = accordionItemHeader.nextElementSibling;
+          if(accordionItemHeader.classList.contains("active")) {
+            accordionItemBody.style.maxHeight = accordionItemBody.scrollHeight + "px";
+          }
+          else {
+            accordionItemBody.style.maxHeight = 0;
+          }
+          
+        });
+      });
+      </script>
+</body>
+</html>
