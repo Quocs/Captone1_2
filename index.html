@@ -12,29 +12,39 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@200;300;400;600;700;900&display=swap" rel="stylesheet">
     <link href='https://unpkg.com/boxicons@2.0.9/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="css/navbar.css">
+    
     <title>Trang Chu</title>
 </head>
 <body>
-    <header>
-        <div class="inner-width">
-         
-          <i class="menu-toggle-btn fas fa-bars"></i>
-          <nav class="navigation-menu">
-            <a href="index.html"><i class="fas fa-home home"></i> Trang Chủ</a>
-           <!-- <a href="#"><i class="fas fa-align-left about"></i> About</a>-->
-            <a href="SoLieuCovid.html"><i class="fab fa-buffer works"></i> Số Liệu Covid</a>
-            <a href="TinTucCovid.html"><i class="fas fa-users team"></i> Tin Tức Covid</a>
-            <a href="Hoidap.html"><i class="fas fa-headset contact"></i> Hỏi Đáp Tin Tức</a>
-          </nav>
+  <div class="nav-wrapper">
+    <div class="container">
+        <div class="nav">
+            <a href="index.html" class="logo">
+               E-C<i class="bx bxs-virus-block bx-tada"></i>VID 19
+            </a>
+            <div class="inner-width">
+     
+                <!--<i class="menu-toggle-btn fas fa-bars"></i>-->
+                <nav class="navigation-menu">
+                  <a href="index.html"><i class="fas fa-home home"></i> Trang Chủ</a>
+                 <!-- <a href="#"><i class="fas fa-align-left about"></i> About</a>-->
+                  <a href="SoLieuCovid.html"><i class="fab fa-buffer works"></i> Số Liệu Covid</a>
+                  <a href="TinTucCovid.html"><i class="fas fa-users team"></i> Tin Tức Covid</a>
+                  <a href="Hoidap.html"><i class="fas fa-headset contact"></i> Hỏi Đáp Tin Tức</a>
+                </nav>
+              </div>
+            <div class="darkmode-switch" id="darkmode-switch">
+                <span>
+                    <i class="bx bxs-moon"></i>
+                    <i class="bx bxs-sun"></i>
+                </span>
+            </div>
         </div>
-      </header>
-      <script type="text/javascript">
-        $(".menu-toggle-btn").click(function(){
-          $(this).toggleClass("fa-times");
-          $(".navigation-menu").toggleClass("active");
-        });
-      </script>
-      <div class="body">
+    </div>
+</div>
+
+<!--<div class="body">
       <div class="slider">
         <div class="slide active">
           <img src="img/1.jpg" alt="">
@@ -164,6 +174,6 @@
         slider.addEventListener("mouseout", () => {
           repeater();
         });
-        </script>
+        </script>-->
 </body>
 </html>
